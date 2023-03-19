@@ -1,0 +1,6 @@
+.formcontacto__text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+    justify-content: flex-start;
+}

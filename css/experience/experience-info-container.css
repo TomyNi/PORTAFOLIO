@@ -1,0 +1,5 @@
+.experience__info-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
