@@ -1,8 +1,0 @@
-.title__div{
-    display: flex;
-    flex-direction: row-reverse;
-    margin-top: 2rem;
-    margin-left: 7%;
-    margin-right: 7%;
-    justify-content: space-around;
-}
