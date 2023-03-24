@@ -1,0 +1,36 @@
+.formcontacto__boton{
+    height: 3.1875rem;
+    width: 9rem;
+    background-color: #2A7AE4;
+    border-color: #2A7AE4;
+    color: #ffffff;
+    margin-top: 2rem;
+    font-family: raleway;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0;
+}
+
+@media screen and (min-width: 0){
+    .formcontacto__boton{
+        height: 2.5rem;
+        width: 8.3125rem;
+        font-size: 0.875rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .formcontacto__boton{
+        height: 2.5rem;
+        width: 8.3125rem;
+        font-size: 0.875rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .formcontacto__boton{
+        height: 3.1875rem;
+        width: 9rem;
+        font-size: 1rem;
+    }
+}

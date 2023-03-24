@@ -1,0 +1,23 @@
+.experience__info-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+@media screen and (min-width: 0){
+    .experience__info-container{
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .experience__info-container{
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .experience__info-container{
+        margin-left: 1rem;
+    }
+}
