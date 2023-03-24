@@ -1,0 +1,31 @@
+.hobbies__line{
+    display: flex;
+}
+
+@media screen and (min-width: 0){
+    .hobbies__line{
+        flex-wrap: wrap;
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .hobbies__line{
+        flex-wrap: wrap;
+        width: 100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .hobbies__line{
+        flex-wrap: nowrap;
+        width: 80%;
+        justify-content: space-around;
+    }
+}

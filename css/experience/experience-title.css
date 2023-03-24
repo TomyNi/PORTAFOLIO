@@ -1,0 +1,31 @@
+.experience__title{
+    font-family: raleway;
+    font-size: 1.375rem;
+    font-weight: 700;
+    margin: .25rem 0;
+}
+
+@media screen and (min-width: 0){
+    .experience__title{
+        font-size: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 0.25rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .experience__title{
+        font-size: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 0.25rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .experience__title{
+        font-family: raleway;
+        font-size: 1.375rem;
+        font-weight: 700;
+        margin: .25rem 0;
+    }
+}

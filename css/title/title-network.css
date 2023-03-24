@@ -1,0 +1,26 @@
+.title__network{
+    display: flex;
+    margin: 0.5rem 0;
+    padding: 0;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media screen and (min-width: 0){
+    .title__network{
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .title__network{
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .title__network{
+        margin-left: 9.5rem;
+    }
+}

@@ -1,0 +1,30 @@
+.academic__courses__item__img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+    background: #ffffff;
+    gap: 10px;
+}
+
+@media screen and (min-width: 0){
+    .academic__courses__item__img{
+        width: 18.5rem;
+        height: 8.2rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .academic__courses__item__img{
+        width: 14rem;
+        height: 8.2rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .academic__courses__item__img{
+        width: 23rem;
+        height: 17.875rem;
+    }
+}
